@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet');
+
+body {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.5;
+	max-width: 720px;
+	margin: auto;
+	padding: 1em;
+}
+
+#profile_pic {
+	float: right;
+	width: 130px;
+	border-radius: 10%;
+}
+
+h1, h2 {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 2.0rem;
+	margin-bottom: 1.0rem;
+	line-height: 1.0;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+th {
+	padding: 0 1rem;
+	text-align: right;
+	font-weight: 600;
+}
+
+li {
+	margin: 1rem 0;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+	border-bottom: solid 2px;
+}
+
+a:visited {
+	color: green;
+}
+
+u {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+b {
+	font-weight: 600;
+}
+
+footer {
+	margin-top: 3rem;
+	color: #888;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.project-container {
+	font-family: 'Raleway', sans-serif; 
+}
+
+.project {
+	margin-bottom: 20px; 
+}
+
+.project-title {
+	margin-top: 25px;
+	font-size: 16px; 
+	font-weight: bold; 
+	margin-bottom: 5px; 
+}
+
+.description {
+	margin-bottom: 5px; 
+}
+
+.tech-used {
+	font-weight: bold; 
+}
+
+.timeline {
+	float: right; 
+	background-color: #ffffff; 
+	color: #FA8072;
+	font-weight: bold;
+	padding: 1px; 
+	border-radius: 5px; 
+}
+
+.experience-table {
+	margin-top:0;
+	padding-left: 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.experience-table th.timeline1 {
+	padding-left: 0; 
+	text-align: left; 
+}
+.experience-table th, .experience-table td {
+	padding: 8px; 
+}
+
+.timeline1 {
+	width: 180px; 
+	color: #FA8072;
+}
+
+.tech-used {
+	font-size: 0.9em;
+	font-weight: bold;
+	padding-top: 4px;
+}
+
+
+.section-heading {
+	border-top: 1px solid hsla(210, 100%, 50%, 1);
+	padding-top: 30px;
+}
+
+
+
+h3 + h3 {
+    margin-top: 20px; 
+}
+
+
+ol {
+    padding-left: 0;  
+    list-style-type: none; 
+}
+
+ol li {
+    margin-bottom: 20px; 
+    counter-increment: item; 
+}
+
+ol li::before {
+    content: counter(item) ". "; 
+   
+}
+
+h1 {
+    margin-left: 0; 
+}
+
+.github-link {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.back-button {
+    display: inline-block; /* Ensures the button only takes up as much space as needed */
+    font-size: 40px; /* Adjust size as needed */
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    
+}
+
+.back-button:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
