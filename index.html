@@ -130,7 +130,7 @@
 </body>
 <script>
 	window.onload = function() {
-		fetch('/visit')
+		fetch('/.netlify/functions/visitorCount')
 			.then(response => response.json())
 			.then(data => {
 				document.getElementById('visitorCount').innerText = 'Visitor Count: ' + data.visitorCount;
