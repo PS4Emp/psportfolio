@@ -101,7 +101,8 @@
 	
 		<div class="project">
 			<div class="timeline">March 2023 - November 2023</div>
-			<div class="project-title">2. OneSearch</div>
+			<div class="project-title">2. OneSearch <a href="https://github.com/Light-AI-Labs/mvp">Code</a></div>
+			
 			<div class="description">
 				• Designed and implemented a unified search platform for workplace environments, integrating with various
 				tools such as Slack, GitHub, and Jira to streamline information access and enhance productivity.<br>
@@ -111,6 +112,7 @@
 			<div class="tech-used">Tech Used: Search Algorithms, Data Indexing, Figma</div>
 		</div>
 	</div>
+
 	
 	<h2 class="section-heading">Technical Skills</h2>
 	<p ><strong>1. Programming languages: </strong>C++, JavaScript, Python, HTML, CSS</p>
@@ -123,6 +125,19 @@
 	<footer>
 		Made with &#10084;&#65039; in plain HTML and CSS (<a href="https://github.com/PS4Emp/psportfolio">code</a>).
 	<footer>
-</body>
+		<div id="visitorCount">Visitor Count: 0</div>
 
+</body>
+<script>
+	window.onload = function() {
+		fetch('/visit')
+			.then(response => response.json())
+			.then(data => {
+				document.getElementById('visitorCount').innerText = 'Visitor Count: ' + data.visitorCount;
+			})
+			.catch(error => console.error('Error:', error));
+	};
+</script>
+
+	
 </html>

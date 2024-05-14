@@ -1,0 +1,24 @@
+{
+  "name": "psportfolio",
+  "version": "1.0.0",
+  "description": "Feel free to use this template for your own website!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PS4Emp/psportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PS4Emp/psportfolio/issues"
+  },
+  "homepage": "https://github.com/PS4Emp/psportfolio#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
