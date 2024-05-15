@@ -125,19 +125,9 @@
 	<footer>
 		Made with &#10084;&#65039; in plain HTML and CSS (<a href="https://github.com/PS4Emp/psportfolio">code</a>).
 	<footer>
-		<div id="visitorCount">Visitor Count: 0</div>
+	
 
 </body>
-<script>
-	window.onload = function() {
-		fetch('/.netlify/functions/visitorCount')
-			.then(response => response.json())
-			.then(data => {
-				document.getElementById('visitorCount').innerText = 'Visitor Count: ' + data.visitorCount;
-			})
-			.catch(error => console.error('Error:', error));
-	};
-</script>
 
 	
 </html>
